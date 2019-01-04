@@ -1,7 +1,8 @@
-puhs = push
-pul = pull
-psh = push
-fo = fetch origin
-pme = !git push jr $(git symbolic-ref --short HEAD)
-s = !git status && echo "Stash: " && git stash list
-chb = checkout -b
+[alias]
+  puhs = push
+  pul = pull
+  psh = push
+  fo = fetch origin
+  pme = !git push jr $(git symbolic-ref --short HEAD)
+  s = !git status && echo "Stash: " && git stash list
+  chb = checkout -b
